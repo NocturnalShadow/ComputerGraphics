@@ -1,5 +1,4 @@
 #include <Catch>
-#include <Eigen/Dense>
 
 #include "Algorithms.h"
 

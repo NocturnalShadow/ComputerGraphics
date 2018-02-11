@@ -12,7 +12,6 @@ namespace Geometry
 	{
 		Vector2f pivot = (polygon[0] + polygon[1] + polygon[2]) / 3;
 
-		// TODO: replace with vector
 		map<float, Vector2f> vertices;
 		for (auto vertex : polygon) {
 			vertices[angleOf(vertex - pivot)] = vertex;

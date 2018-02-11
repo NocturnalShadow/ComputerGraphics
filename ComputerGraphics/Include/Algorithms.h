@@ -1,4 +1,5 @@
 #include <vector>
+
 #include <Eigen/Dense>
 
 namespace Geometry
